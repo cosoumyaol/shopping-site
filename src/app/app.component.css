@@ -1,0 +1,33 @@
+.box {
+    background: #38a09b;
+    color:rgb(243, 243, 243);
+    text-align: left;
+    padding: 17px 0;
+    font-style: italic;
+    font-size: larger;
+    height: 140px;
+  }
+  .icon{
+      position: absolute;
+      top: 0%;
+      left: 0%;
+      height: 5.3rem;
+      width: 6rem;
+  }
+  .icon1{
+      position: absolute;
+      top: 0%;
+      left: 93%;
+      height: 5.3rem;
+      width: 6rem;
+  }
+  .inline{
+      padding-left: 100px;
+      padding-right: 30px;
+      display: inline-block;
+  }
+  .box-content{
+    background: #050505;
+    color:rgb(240, 34, 34);
+
+  }

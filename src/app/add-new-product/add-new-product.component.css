@@ -1,0 +1,33 @@
+.box{
+    width: 375px;
+    height: 450px;
+	padding: 1%;
+    background-color: chocolate;
+    position:absolute;
+    top: 25%;
+    left: 70%;
+}
+input[type=text], select {
+	width: 350px;
+	padding: 12px 20px;
+	margin-bottom: 3px ;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+h3{
+	padding-left: 35%;
+    font-size: larger;
+	font-style: italic;
+}
+.btn {
+	text-decoration: none;
+	padding: 10px;
+    margin: 10px;
+	border-radius: 4px;
+}
+.align{
+	padding-left: 30%;
+	padding-top: 1%;
+}

@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'shopping-site';
+  items = false;
+  addItem(newItem: boolean) {
+    this.items=newItem;
+  }
 }

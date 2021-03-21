@@ -1,0 +1,24 @@
+<div class="box">
+    <h3>Add Product</h3>
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+        <input type="text" placeholder="Title" formControlName="title">
+        <br>
+        <input type="text" placeholder="Type" formControlName="type">
+        <br>
+        <input type="text" placeholder="Description" formControlName="description">
+        <br>
+        <input type="text" placeholder="Filename" formControlName="filename">
+        <br>
+        <input type="text" placeholder="Height" formControlName="height">
+        <br>
+        <input type="text" placeholder="Width" formControlName="width">
+        <br>
+        <input type="text" placeholder="Price" formControlName="price">
+        <br>
+        <input type="text" placeholder="Rating" formControlName="rating">
+        <section class="align">
+            <button class="btn">Reset</button>
+            <button class="btn" type="submit" [disabled]="!form.valid">Add</button>
+        </section>
+    </form>
+</div>

@@ -1,0 +1,18 @@
+<div class = "box">
+    <h3>SignUp</h3>
+    <form [formGroup]="form" (ngSubmit)="onSubmit()">
+        <input type="text" placeholder="Name" formControlName="name">
+        <br>
+        <input type="text" placeholder="User Name" formControlName="userName">
+        <br>
+        <input type="password" placeholder="Password" formControlName="password">
+        <br>
+        <input type="password" placeholder="Re_Password" formControlName="rePassword">
+        <br>
+        <input type="text" placeholder="Hint" formControlName="hint">
+        <div class="align">
+        <button class="btn">Reset</button>
+        <button class="btn" type="submit" [disabled]="!form.valid">SignUp</button>
+        </div>
+    </form>
+</div>

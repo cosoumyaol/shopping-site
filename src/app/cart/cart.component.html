@@ -1,0 +1,22 @@
+<div class="box float-1" >
+    <div class="box-1">
+        <span>My Cart</span>
+        <button (click)=claerCart() class="btnPosition">Clear Cart</button>
+    </div>
+    <div *ngFor="let product of items;let indexOfItem=index;">
+        <div class="box-2">
+            <img [src]="'assets/images/'+product.filename" class="image">
+            <span class="position">{{product.title}}</span>
+            <span class="position">{{product.type}}</span>
+            <span class="position">{{product.price | currency}}</span><br>
+            <button (click)=removeFromCart(indexOfItem) class="btnPosition">Remove Item</button>
+        </div>    
+    </div>
+</div>      
+ 
+<div class="box-3 float-2">
+    <div *ngFor="let product of items">
+        <span>{{product.price | currency}}</span><br>  
+    </div>
+</div>
+

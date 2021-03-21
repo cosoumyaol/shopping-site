@@ -1,0 +1,49 @@
+
+.groupContentStyle{
+  padding-left: 35px;
+  padding-top: 20px;
+}
+.contentStyle{
+  background-color: lightgrey;
+  width: 300px;
+  height: 350px;
+  border: 3px solid rgb(18, 196, 187);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  float:left;
+  overflow:auto;
+}
+.menubar{
+  width:100%;
+}
+.title{
+  color:blue;
+  font-size: medium;
+  font-style: italic;
+}
+.type{
+  color:red;
+}
+.description{
+  color:gray;
+}
+.filename{
+  color:black;
+}
+.height{
+  color:rgb(35, 127, 150);
+}
+.width{
+  color:rgb(35, 127, 150);
+}
+.price{
+  color:green;
+}
+.rating{
+  color:red;
+}
+.imagesize{
+  height: 140px;
+  width: 241px;
+}
